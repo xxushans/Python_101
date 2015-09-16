@@ -1,0 +1,12 @@
+add another upstream repo to local repo:
+git remote add upstream https://github.com/thisismetis/capitalone-pilottwo.git
+
+check linked repo:
+git remote -v
+
+pull:
+git pull upstream master
+git pull origin master
+
+push:
+git push origin master
